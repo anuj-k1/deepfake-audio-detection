@@ -9,7 +9,7 @@ import os
 with open("deepfake_model.pkl", "rb") as f:
     model = pickle.load(f)
 
-st.title("🎙️ Deepfake Audio Detector")
+st.title(" Deepfake Audio Detector")
 st.write("Upload an audio file to check if it is Genuine or Deepfake")
 
 uploaded_file = st.file_uploader("Choose an audio file", type=["wav", "mp3"])
