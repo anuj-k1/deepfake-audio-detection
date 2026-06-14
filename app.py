@@ -40,10 +40,10 @@ if uploaded_file is not None:
 
             st.markdown("---")
             if prediction == 0:
-                st.success(f"✅ GENUINE (Human) Audio")
+                st.success(f" GENUINE (Human) Audio")
                 st.info(f"Confidence: {confidence[0]*100:.2f}%")
             else:
-                st.error(f"🚨 DEEPFAKE (AI-Generated) Audio")
+                st.error(f" DEEPFAKE (AI-Generated) Audio")
                 st.info(f"Confidence: {confidence[1]*100:.2f}%")
         else:
             st.error("Could not process audio file. Try another file.")
