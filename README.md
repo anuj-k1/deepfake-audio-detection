@@ -1,4 +1,4 @@
-# 🎙️ Deepfake Audio Detection
+#  Deepfake Audio Detection
 
 A Machine Learning system to classify audio as Genuine (Human) or Deepfake (AI-Generated).
 
